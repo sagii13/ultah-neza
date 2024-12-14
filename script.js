@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Jan 13, 2025 00:00:00').getTime(),
+let countDown = new Date('Dec 14, 2024 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -146,14 +146,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Dava Haikal pada hari ini Senin, 13 January 2025 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 18</b>", " ", "Kepada Jeni Rahmatin Neza, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- D.Haikal, ganteng :)"],
+  strings: ["Assalamualaikum Wr. Wb", " ", "Saya Dava Haikal.A pada hari ini Senin, 13 January 2025 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 18</b>", " ", "Kepada Jeni Rahmatin Neza, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- D.Haikal :)"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii cantikk", "Happy Birthday ya..", " ", "Ciie udah 18 tahun, padahal baru aja beberapa hari kemarin umur kita sama hehe, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
+  strings: ["Haii cantikk", "Happy Birthday ya..", " ", "Ciie udah 18 tahun, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
